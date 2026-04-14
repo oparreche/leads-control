@@ -1,0 +1,3 @@
+[     108ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://osvaldo-leads-control.0tkqo1.easypanel.host/login:0
+[   10815ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://osvaldo-leads-control.0tkqo1.easypanel.host/api/auth/callback/credentials:0
+[   34692ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://osvaldo-leads-control.0tkqo1.easypanel.host/api/auth/callback/credentials:0

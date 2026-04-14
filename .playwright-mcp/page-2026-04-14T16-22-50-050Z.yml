@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - heading "Leads Control" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Faça login para acessar o sistema
+    - generic [ref=e21]: Email ou senha incorretos
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: Email
+        - textbox "usuario1@leads.com" [ref=e9]
+      - generic [ref=e10]:
+        - generic [ref=e11]: Senha
+        - textbox "••••••••" [ref=e12]: usuario1
+      - button "Entrar" [ref=e13]
+    - generic [ref=e14]:
+      - paragraph [ref=e15]: "Credenciais de acesso:"
+      - paragraph [ref=e16]: usuario1@leads.com / usuario1
+      - paragraph [ref=e17]: usuario2@leads.com / usuario2
+      - paragraph [ref=e18]: usuario3@leads.com / usuario3
+  - alert [ref=e19]

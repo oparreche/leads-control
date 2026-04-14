@@ -1,0 +1,1 @@
+[   20952ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://92.113.32.80:3000/api/trpc/service.inspectService?input=%7B%22projectName%22%3A%22osvaldo%22%2C%22serviceName%22%3A%22leads-control%22%7D:0
