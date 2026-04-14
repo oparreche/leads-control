@@ -1,0 +1,47 @@
+-- CreateTable
+CREATE TABLE `users` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(191) NOT NULL,
+    `email` VARCHAR(191) NOT NULL,
+    `password` VARCHAR(191) NOT NULL,
+    `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+
+    UNIQUE INDEX `users_email_key`(`email`),
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- CreateTable
+CREATE TABLE `leads` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `nome` VARCHAR(191) NOT NULL,
+    `bairro` VARCHAR(191) NULL,
+    `cidade` VARCHAR(191) NULL,
+    `uf` VARCHAR(191) NULL,
+    `telefone1` VARCHAR(191) NULL,
+    `telefone2` VARCHAR(191) NULL,
+    `email` VARCHAR(191) NULL,
+    `status` ENUM('NOVO', 'EM_ATENDIMENTO', 'CONTATO_REALIZADO', 'INTERESSADO', 'NAO_INTERESSADO', 'FECHADO_GANHO', 'FECHADO_PERDIDO') NOT NULL DEFAULT 'NOVO',
+    `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    `updatedAt` DATETIME(3) NOT NULL,
+
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- CreateTable
+CREATE TABLE `lead_interactions` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `leadId` INTEGER NOT NULL,
+    `userId` INTEGER NOT NULL,
+    `action` VARCHAR(191) NOT NULL,
+    `notes` TEXT NULL,
+    `status` ENUM('NOVO', 'EM_ATENDIMENTO', 'CONTATO_REALIZADO', 'INTERESSADO', 'NAO_INTERESSADO', 'FECHADO_GANHO', 'FECHADO_PERDIDO') NOT NULL,
+    `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- AddForeignKey
+ALTER TABLE `lead_interactions` ADD CONSTRAINT `lead_interactions_leadId_fkey` FOREIGN KEY (`leadId`) REFERENCES `leads`(`id`) ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE `lead_interactions` ADD CONSTRAINT `lead_interactions_userId_fkey` FOREIGN KEY (`userId`) REFERENCES `users`(`id`) ON DELETE RESTRICT ON UPDATE CASCADE;

@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+
+  interactions LeadInteraction[]
+
+  @@map("users")
+}
+
+model Lead {
+  id        Int      @id @default(autoincrement())
+  nome      String
+  bairro    String?
+  cidade    String?
+  uf        String?
+  telefone1 String?
+  telefone2 String?
+  email     String?
+  status    LeadStatus @default(NOVO)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  interactions LeadInteraction[]
+
+  @@map("leads")
+}
+
+model LeadInteraction {
+  id        Int      @id @default(autoincrement())
+  leadId    Int
+  userId    Int
+  action    String
+  notes     String?  @db.Text
+  status    LeadStatus
+  createdAt DateTime @default(now())
+
+  lead Lead @relation(fields: [leadId], references: [id])
+  user User @relation(fields: [userId], references: [id])
+
+  @@map("lead_interactions")
+}
+
+enum LeadStatus {
+  NOVO
+  EM_ATENDIMENTO
+  CONTATO_REALIZADO
+  INTERESSADO
+  NAO_INTERESSADO
+  FECHADO_GANHO
+  FECHADO_PERDIDO
+}
