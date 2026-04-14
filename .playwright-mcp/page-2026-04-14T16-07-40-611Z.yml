@@ -1,0 +1,193 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link [ref=e269] [cursor=pointer]:
+            - /url: /
+            - img [ref=e270]
+          - generic [ref=e10]:
+            - generic [ref=e11]: Easypanel
+            - generic [ref=e12]:
+              - generic [ref=e13]: v2.24.0
+              - button [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+              - combobox [ref=e20]
+        - generic [ref=e21]:
+          - link [ref=e271] [cursor=pointer]:
+            - /url: /
+            - img [ref=e23]
+            - generic [ref=e26]: Dashboard
+          - link [ref=e272] [cursor=pointer]:
+            - /url: /actions
+            - img [ref=e28]
+            - generic [ref=e30]: Actions
+          - link [ref=e273] [cursor=pointer]:
+            - /url: /monitor
+            - img [ref=e32]
+            - generic [ref=e34]: Monitor
+          - link [ref=e274] [cursor=pointer]:
+            - /url: /domains
+            - img [ref=e36]
+            - generic [ref=e39]: Domains
+          - link [ref=e275] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e41]
+            - generic [ref=e44]: Settings
+        - generic [ref=e46]:
+          - link [ref=e276] [cursor=pointer]:
+            - /url: https://easypanel.io/docs
+            - img [ref=e48]
+            - generic [ref=e50]: Documentation
+            - img [ref=e52]
+          - link [ref=e277] [cursor=pointer]:
+            - /url: https://discord.gg/9bcDSXcZQ7
+            - img [ref=e278]
+            - generic [ref=e59]: Discord
+            - img [ref=e61]
+          - link [ref=e279] [cursor=pointer]:
+            - /url: https://feedback.easypanel.io
+            - img [ref=e66]
+            - generic [ref=e68]: Feedback
+            - img [ref=e70]
+          - link [ref=e280] [cursor=pointer]:
+            - /url: https://feedback.easypanel.io/changelog
+            - img [ref=e75]
+            - generic [ref=e78]: Changelog
+            - img [ref=e80]
+        - link [ref=e281] [cursor=pointer]:
+          - /url: /buy-license
+          - img [ref=e86]
+          - generic [ref=e90]: Buy License
+        - button [ref=e282] [cursor=pointer]:
+          - img [ref=e92]
+          - generic [ref=e95]: Quick Search
+          - generic [ref=e97]: ⌘ K
+        - button [ref=e283] [cursor=pointer]:
+          - img [ref=e99]
+          - generic [ref=e103]: 92.113.32.80
+          - img [ref=e105]
+        - generic [ref=e108]:
+          - img [ref=e109]
+          - generic [ref=e111]: Dark Mode
+          - switch [ref=e284] [cursor=pointer]
+        - button [ref=e285] [cursor=pointer]:
+          - img [ref=e115]
+          - generic [ref=e118]: Logout
+        - button [ref=e286] [cursor=pointer]:
+          - img [ref=e121]
+          - generic [ref=e126]: Update Available
+      - generic [ref=e129]:
+        - button [ref=e287] [cursor=pointer]:
+          - img [ref=e132]
+          - generic [ref=e135]: osvaldo
+          - img [ref=e136]
+        - generic [ref=e139]:
+          - generic [ref=e140]: Services
+          - link [ref=e141] [cursor=pointer]:
+            - /url: /projects/osvaldo/create
+            - img [ref=e142]
+        - generic [ref=e146]:
+          - link [ref=e288] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/clinxbacknew
+            - generic [ref=e151]: clinxbacknew
+          - link [ref=e289] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/closehub_db
+            - generic [ref=e156]: closehub_db
+          - link [ref=e290] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/closehubback
+            - generic [ref=e161]: closehubback
+          - link [ref=e291] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/evolution-api
+            - generic [ref=e166]: evolution-api
+          - link [ref=e292] [cursor=pointer]:
+            - /url: /projects/osvaldo/postgres/evolution-api-db
+            - generic [ref=e171]: evolution-api-db
+          - link [ref=e293] [cursor=pointer]:
+            - /url: /projects/osvaldo/redis/evolution-api-redis
+            - generic [ref=e176]: evolution-api-redis
+          - link [ref=e294] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/flip
+            - generic [ref=e181]: flip
+          - link [ref=e295] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/flipnet
+            - generic [ref=e186]: flipnet
+          - link [ref=e296] [cursor=pointer]:
+            - /url: /projects/osvaldo/postgres/flipnet-db
+            - generic [ref=e191]: flipnet-db
+          - link [ref=e297] [cursor=pointer]:
+            - /url: /projects/osvaldo/redis/flipnet-redis
+            - generic [ref=e196]: flipnet-redis
+          - link [ref=e298] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/hotbowl
+            - generic [ref=e201]: hotbowl
+          - link [ref=e299] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/leads-db
+            - generic [ref=e206]: leads-db
+          - link [ref=e300] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/minio
+            - generic [ref=e211]: minio
+          - link [ref=e301] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/nora-db
+            - generic [ref=e216]: nora-db
+          - link [ref=e302] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/ocrviber
+            - generic [ref=e221]: ocrviber
+          - link [ref=e303] [cursor=pointer]:
+            - /url: /projects/osvaldo/postgres/vetores
+            - generic [ref=e226]: vetores
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - link [ref=e304] [cursor=pointer]:
+          - /url: /projects/osvaldo
+          - text: osvaldo
+        - generic [ref=e232]:
+          - link [ref=e305] [cursor=pointer]:
+            - /url: /projects/osvaldo/create
+            - img [ref=e235]
+            - text: Service
+          - link [ref=e306] [cursor=pointer]:
+            - /url: /projects/osvaldo/create
+            - img [ref=e238]
+            - text: Templates
+          - link [ref=e307] [cursor=pointer]:
+            - /url: /projects/osvaldo/settings
+            - img [ref=e242]
+      - generic [ref=e246]:
+        - group [ref=e248]:
+          - button [ref=e308] [cursor=pointer]: Services
+          - button [ref=e309] [cursor=pointer]: Templates
+          - button [ref=e310] [cursor=pointer]: Custom
+        - generic [ref=e253]:
+          - button [ref=e311] [cursor=pointer]: App
+          - button [ref=e312] [cursor=pointer]: MySQL
+          - button [ref=e313] [cursor=pointer]: MariaDB
+          - button [ref=e314] [cursor=pointer]: Postgres
+          - button [ref=e315] [cursor=pointer]: Mongo
+          - button [ref=e316] [cursor=pointer]: Redis
+          - button [ref=e317] [cursor=pointer]: Box
+          - button [ref=e318] [cursor=pointer]:
+            - generic [ref=e262]:
+              - generic [ref=e263]: Compose
+              - generic [ref=e264]: Beta
+          - button [ref=e319] [cursor=pointer]:
+            - generic [ref=e266]:
+              - generic [ref=e267]: Wordpress
+              - generic [ref=e268]: Alpha
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog "Create App Service" [ref=e322]:
+    - generic [ref=e323]:
+      - button "Close" [ref=e324] [cursor=pointer]:
+        - img [ref=e325]
+      - banner [ref=e327]: Create App Service
+      - group [ref=e330]:
+        - generic [ref=e331]: Service Name
+        - textbox "Service Name" [active] [ref=e333]
+      - contentinfo [ref=e334]:
+        - button "Create" [ref=e335] [cursor=pointer]

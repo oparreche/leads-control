@@ -1,0 +1,277 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link [ref=e412] [cursor=pointer]:
+            - /url: /
+            - img [ref=e413]
+          - generic [ref=e10]:
+            - generic [ref=e11]: Easypanel
+            - generic [ref=e12]:
+              - generic [ref=e13]: v2.24.0
+              - button [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+              - combobox [ref=e20]
+        - generic [ref=e21]:
+          - link [ref=e414] [cursor=pointer]:
+            - /url: /
+            - img [ref=e23]
+            - generic [ref=e26]: Dashboard
+          - link [ref=e415] [cursor=pointer]:
+            - /url: /actions
+            - img [ref=e28]
+            - generic [ref=e30]: Actions
+          - link [ref=e416] [cursor=pointer]:
+            - /url: /monitor
+            - img [ref=e32]
+            - generic [ref=e34]: Monitor
+          - link [ref=e417] [cursor=pointer]:
+            - /url: /domains
+            - img [ref=e36]
+            - generic [ref=e39]: Domains
+          - link [ref=e418] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e41]
+            - generic [ref=e44]: Settings
+        - generic [ref=e46]:
+          - link [ref=e419] [cursor=pointer]:
+            - /url: https://easypanel.io/docs
+            - img [ref=e48]
+            - generic [ref=e50]: Documentation
+            - img [ref=e52]
+          - link [ref=e420] [cursor=pointer]:
+            - /url: https://discord.gg/9bcDSXcZQ7
+            - img [ref=e421]
+            - generic [ref=e59]: Discord
+            - img [ref=e61]
+          - link [ref=e422] [cursor=pointer]:
+            - /url: https://feedback.easypanel.io
+            - img [ref=e66]
+            - generic [ref=e68]: Feedback
+            - img [ref=e70]
+          - link [ref=e423] [cursor=pointer]:
+            - /url: https://feedback.easypanel.io/changelog
+            - img [ref=e75]
+            - generic [ref=e78]: Changelog
+            - img [ref=e80]
+        - link [ref=e424] [cursor=pointer]:
+          - /url: /buy-license
+          - img [ref=e86]
+          - generic [ref=e90]: Buy License
+        - button [ref=e425] [cursor=pointer]:
+          - img [ref=e92]
+          - generic [ref=e95]: Quick Search
+          - generic [ref=e97]: ⌘ K
+        - button [ref=e426] [cursor=pointer]:
+          - img [ref=e99]
+          - generic [ref=e103]: 92.113.32.80
+          - img [ref=e105]
+        - generic [ref=e108]:
+          - img [ref=e109]
+          - generic [ref=e111]: Dark Mode
+          - switch [ref=e427] [cursor=pointer]
+        - button [ref=e428] [cursor=pointer]:
+          - img [ref=e115]
+          - generic [ref=e118]: Logout
+        - button [ref=e429] [cursor=pointer]:
+          - img [ref=e121]
+          - generic [ref=e126]: Update Available
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - button [ref=e430] [cursor=pointer]:
+            - img [ref=e132]
+            - generic [ref=e135]: osvaldo
+            - img [ref=e136]
+          - generic [ref=e139]:
+            - generic [ref=e140]: Services
+            - link [ref=e141] [cursor=pointer]:
+              - /url: /projects/osvaldo/create
+              - img [ref=e142]
+          - generic [ref=e146]:
+            - link [ref=e431] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/clinxbacknew
+              - generic [ref=e151]: clinxbacknew
+            - link [ref=e432] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/closehub_db
+              - generic [ref=e156]: closehub_db
+            - link [ref=e433] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/closehubback
+              - generic [ref=e161]: closehubback
+            - link [ref=e434] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/evolution-api
+              - generic [ref=e166]: evolution-api
+            - link [ref=e435] [cursor=pointer]:
+              - /url: /projects/osvaldo/postgres/evolution-api-db
+              - generic [ref=e171]: evolution-api-db
+            - link [ref=e436] [cursor=pointer]:
+              - /url: /projects/osvaldo/redis/evolution-api-redis
+              - generic [ref=e176]: evolution-api-redis
+            - link [ref=e437] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/flip
+              - generic [ref=e181]: flip
+            - link [ref=e438] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/flipnet
+              - generic [ref=e186]: flipnet
+            - link [ref=e439] [cursor=pointer]:
+              - /url: /projects/osvaldo/postgres/flipnet-db
+              - generic [ref=e191]: flipnet-db
+            - link [ref=e440] [cursor=pointer]:
+              - /url: /projects/osvaldo/redis/flipnet-redis
+              - generic [ref=e196]: flipnet-redis
+            - link [ref=e441] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/hotbowl
+              - generic [ref=e201]: hotbowl
+            - link [ref=e442] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/leads-control
+              - generic [ref=e206]: leads-control
+            - link [ref=e443] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/leads-db
+              - generic [ref=e211]: leads-db
+            - link [ref=e444] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/minio
+              - generic [ref=e216]: minio
+            - link [ref=e445] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/nora-db
+              - generic [ref=e221]: nora-db
+            - link [ref=e446] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/ocrviber
+              - generic [ref=e226]: ocrviber
+            - link [ref=e447] [cursor=pointer]:
+              - /url: /projects/osvaldo/postgres/vetores
+              - generic [ref=e231]: vetores
+        - generic [ref=e237]:
+          - link [ref=e448] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control
+            - generic [ref=e240]:
+              - img [ref=e242]
+              - text: Overview
+          - link [ref=e449] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/source
+            - generic [ref=e245]:
+              - img [ref=e247]
+              - text: Source
+          - link [ref=e450] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/deployments
+            - generic [ref=e252]:
+              - img [ref=e254]
+              - text: Deployments
+          - link [ref=e451] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/environment
+            - generic [ref=e261]:
+              - img [ref=e263]
+              - text: Environment
+          - link [ref=e452] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/domains
+            - generic [ref=e268]:
+              - img [ref=e270]
+              - text: Domains
+          - link [ref=e453] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/redirects
+            - generic [ref=e275]:
+              - img [ref=e277]
+              - text: Redirects
+          - link [ref=e454] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/security
+            - generic [ref=e281]:
+              - img [ref=e283]
+              - text: Security
+          - link [ref=e455] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/resources
+            - generic [ref=e289]:
+              - img [ref=e291]
+              - text: Resources
+          - link [ref=e456] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/maintenance
+            - generic [ref=e296]:
+              - img [ref=e298]
+              - text: Maintenance
+          - link [ref=e457] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/storage
+            - generic [ref=e302]:
+              - img [ref=e304]
+              - text: Storage
+          - link [ref=e458] [cursor=pointer]:
+            - /url: /projects/osvaldo/app/leads-control/advanced
+            - generic [ref=e308]:
+              - img [ref=e310]
+              - text: Advanced
+    - generic [ref=e314]:
+      - generic [ref=e315]:
+        - generic [ref=e316]:
+          - link [ref=e459] [cursor=pointer]:
+            - /url: /projects/osvaldo
+            - text: osvaldo
+          - paragraph [ref=e318]: /
+          - paragraph [ref=e319]: leads-control
+          - generic [ref=e320]: app
+          - button [ref=e460] [cursor=pointer]:
+            - img [ref=e323]
+        - generic [ref=e326]:
+          - link [ref=e461] [cursor=pointer]:
+            - /url: /projects/osvaldo/create
+            - img [ref=e329]
+            - text: Service
+          - link [ref=e462] [cursor=pointer]:
+            - /url: /projects/osvaldo/create
+            - img [ref=e332]
+            - text: Templates
+          - link [ref=e463] [cursor=pointer]:
+            - /url: /projects/osvaldo/settings
+            - img [ref=e336]
+      - generic [ref=e342]:
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - button [ref=e464] [cursor=pointer]: Deploy
+            - button [ref=e465] [cursor=pointer]:
+              - img [ref=e348]
+            - button [ref=e466] [cursor=pointer]:
+              - img [ref=e351]
+            - button [ref=e467] [cursor=pointer]:
+              - img [ref=e356]
+            - button [ref=e468] [cursor=pointer]:
+              - img [ref=e360]
+            - link [ref=e469] [cursor=pointer]:
+              - /url: https://osvaldo-leads-control.0tkqo1.easypanel.host/
+              - img [ref=e364]
+            - button [ref=e470] [cursor=pointer]:
+              - img [ref=e369]
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - text: CPU
+              - generic [ref=e375]: 0.0%
+            - generic [ref=e376]: Memory 0.0 B
+            - generic [ref=e377]:
+              - text: Network I/O
+              - generic [ref=e378]: 0.0 B / 0.0 B
+        - generic [ref=e379]:
+          - paragraph [ref=e381]: Deployment History
+          - alert [ref=e384]:
+            - img [ref=e387]
+            - generic [ref=e389]: "Deploy service: Initial commit - Leads Control system"
+            - generic [ref=e390]: 5 seconds
+            - generic [ref=e391]: /
+            - generic [ref=e392]: 19 seconds ago
+            - button [ref=e471] [cursor=pointer]:
+              - img [ref=e394]
+            - button [ref=e472] [cursor=pointer]: View
+        - generic [ref=e398]:
+          - paragraph [ref=e400]: Deployment Trigger
+          - generic [ref=e402]:
+            - button [ref=e473] [cursor=pointer]:
+              - generic [ref=e405]: http://92.113.32.80:3000/api/deploy/dba5bda50278fd4e69b3d089e9fd6c969248d8d8db4ee73e
+              - img [ref=e407]
+            - generic [ref=e410]: Making a request to this URL will trigger a deployment for this service. You can use it to integrate external services with Easypanel.
+            - button [ref=e474] [cursor=pointer]: Refresh Deploy Token
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"
+  - dialog "Action" [ref=e477]:
+    - button "Close" [active] [ref=e478] [cursor=pointer]:
+      - img [ref=e479]
+    - banner [ref=e481]: Action
+    - code [ref=e484]: "Commit: Initial commit - Leads Control system ########################################## ### Download Github Archive Started... ### Tue, 14 Apr 2026 16:10:58 GMT ########################################## #0 building with \"default\" instance using docker driver #1 [internal] load build definition from Dockerfile #1 transferring dockerfile: 1.03kB 0.0s done #1 DONE 0.1s #2 [internal] load metadata for docker.io/library/node:20-alpine #2 DONE 1.7s #3 [internal] load .dockerignore #3 transferring context: 2B done #3 DONE 0.1s Dockerfile:32 -------------------- 30 | COPY --from=builder /app/node_modules/@prisma ./node_modules/@prisma 31 | COPY --from=builder /app/package.json ./package.json 32 | >>> COPY --from=builder /app/\"Desenovlvimento de software_SP.csv\" \"./\" 33 | 34 | USER nextjs -------------------- ERROR: failed to build: failed to solve: failed to process \"/app/\\\"Desenovlvimento\": unexpected end of statement while looking for matching double-quote ########################################## ### Error ### Tue, 14 Apr 2026 16:11:02 GMT ########################################## Command failed with exit code 1: docker buildx build --network host -f /etc/easypanel/projects/osvaldo/leads-control/code/Dockerfile -t easypanel/osvaldo/leads-control --label 'keep=true' --build-arg 'DATABASE_URL=mysql://leads_user:leads_pass123@osvaldo_leads-db:3306/leads_control' --build-arg 'NEXTAUTH_SECRET=sua-chave-secreta-aqui-mude-em-producao' --build-arg 'NEXTAUTH_URL=https://osvaldo-leads-control.0tkqo1.easypanel.host' --build-arg 'GIT_SHA=a0a654022361d212826acdc1c7343598dcbdaf3d' /etc/easypanel/projects/osvaldo/leads-control/code/"

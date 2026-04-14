@@ -1,0 +1,291 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "Home" [ref=e353] [cursor=pointer]:
+            - /url: /
+            - img "Home" [ref=e354]
+          - generic [ref=e10]:
+            - generic [ref=e11]: Easypanel
+            - generic [ref=e12]:
+              - generic [ref=e13]: v2.24.0
+              - button [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+              - combobox [ref=e20]:
+                - option "BR"
+                - option "DA"
+                - option "DE"
+                - option "EN" [selected]
+                - option "ES"
+                - option "FA"
+                - option "FR"
+                - option "HI"
+                - option "ID"
+                - option "IT"
+                - option "JA"
+                - option "KA"
+                - option "NL"
+                - option "PL"
+                - option "PT"
+                - option "RO"
+                - option "RU"
+                - option "TH"
+                - option "TR"
+                - option "VI"
+                - option "CN"
+        - generic [ref=e21]:
+          - link "Dashboard" [ref=e355] [cursor=pointer]:
+            - /url: /
+            - img [ref=e23]
+            - generic [ref=e26]: Dashboard
+          - link "Actions" [ref=e356] [cursor=pointer]:
+            - /url: /actions
+            - img [ref=e28]
+            - generic [ref=e30]: Actions
+          - link "Monitor" [ref=e357] [cursor=pointer]:
+            - /url: /monitor
+            - img [ref=e32]
+            - generic [ref=e34]: Monitor
+          - link "Domains" [ref=e358] [cursor=pointer]:
+            - /url: /domains
+            - img [ref=e36]
+            - generic [ref=e39]: Domains
+          - link "Settings" [ref=e359] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e41]
+            - generic [ref=e44]: Settings
+        - generic [ref=e46]:
+          - link "Documentation" [ref=e360] [cursor=pointer]:
+            - /url: https://easypanel.io/docs
+            - img [ref=e48]
+            - generic [ref=e50]: Documentation
+            - img [ref=e52]
+          - link "Discord Discord" [ref=e361] [cursor=pointer]:
+            - /url: https://discord.gg/9bcDSXcZQ7
+            - img "Discord" [ref=e362]
+            - generic [ref=e59]: Discord
+            - img [ref=e61]
+          - link "Feedback" [ref=e363] [cursor=pointer]:
+            - /url: https://feedback.easypanel.io
+            - img [ref=e66]
+            - generic [ref=e68]: Feedback
+            - img [ref=e70]
+          - link "Changelog" [ref=e364] [cursor=pointer]:
+            - /url: https://feedback.easypanel.io/changelog
+            - img [ref=e75]
+            - generic [ref=e78]: Changelog
+            - img [ref=e80]
+        - link "Buy License" [ref=e365] [cursor=pointer]:
+          - /url: /buy-license
+          - img [ref=e86]
+          - generic [ref=e90]: Buy License
+        - button "Quick Search ⌘ K" [ref=e366] [cursor=pointer]:
+          - img [ref=e92]
+          - generic [ref=e95]: Quick Search
+          - generic [ref=e97]: ⌘ K
+        - button "92.113.32.80" [ref=e367] [cursor=pointer]:
+          - img [ref=e99]
+          - generic [ref=e103]: 92.113.32.80
+          - img [ref=e105]
+        - generic [ref=e108]:
+          - img [ref=e109]
+          - generic [ref=e111]: Dark Mode
+          - switch "Dark Mode" [ref=e368] [cursor=pointer]
+        - button "Logout" [ref=e369] [cursor=pointer]:
+          - img [ref=e115]
+          - generic [ref=e118]: Logout
+        - button "Update Available" [ref=e370] [cursor=pointer]:
+          - img [ref=e121]
+          - generic [ref=e126]: Update Available
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - button "osvaldo" [ref=e371] [cursor=pointer]:
+            - img [ref=e132]
+            - generic [ref=e135]: osvaldo
+            - img [ref=e136]
+          - generic [ref=e139]:
+            - generic [ref=e140]: Services
+            - link [ref=e141] [cursor=pointer]:
+              - /url: /projects/osvaldo/create
+              - img [ref=e142]
+          - generic [ref=e146]:
+            - link "clinxbacknew" [ref=e372] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/clinxbacknew
+              - generic [ref=e151]: clinxbacknew
+            - link "closehub_db" [ref=e373] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/closehub_db
+              - generic [ref=e156]: closehub_db
+            - link "closehubback" [ref=e374] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/closehubback
+              - generic [ref=e161]: closehubback
+            - link "evolution-api" [ref=e375] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/evolution-api
+              - generic [ref=e166]: evolution-api
+            - link "evolution-api-db" [ref=e376] [cursor=pointer]:
+              - /url: /projects/osvaldo/postgres/evolution-api-db
+              - generic [ref=e171]: evolution-api-db
+            - link "evolution-api-redis" [ref=e377] [cursor=pointer]:
+              - /url: /projects/osvaldo/redis/evolution-api-redis
+              - generic [ref=e176]: evolution-api-redis
+            - link "flip" [ref=e378] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/flip
+              - generic [ref=e181]: flip
+            - link "flipnet" [ref=e379] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/flipnet
+              - generic [ref=e186]: flipnet
+            - link "flipnet-db" [ref=e380] [cursor=pointer]:
+              - /url: /projects/osvaldo/postgres/flipnet-db
+              - generic [ref=e191]: flipnet-db
+            - link "flipnet-redis" [ref=e381] [cursor=pointer]:
+              - /url: /projects/osvaldo/redis/flipnet-redis
+              - generic [ref=e196]: flipnet-redis
+            - link "hotbowl" [ref=e382] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/hotbowl
+              - generic [ref=e201]: hotbowl
+            - link "leads-db" [ref=e384] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/leads-db
+              - generic [ref=e387]: leads-db
+            - link "minio" [ref=e388] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/minio
+              - generic [ref=e206]: minio
+            - link "nora-db" [ref=e389] [cursor=pointer]:
+              - /url: /projects/osvaldo/mysql/nora-db
+              - generic [ref=e211]: nora-db
+            - link "ocrviber" [ref=e390] [cursor=pointer]:
+              - /url: /projects/osvaldo/app/ocrviber
+              - generic [ref=e216]: ocrviber
+            - link "vetores" [ref=e391] [cursor=pointer]:
+              - /url: /projects/osvaldo/postgres/vetores
+              - generic [ref=e221]: vetores
+        - generic [ref=e397]:
+          - link "Overview" [ref=e398] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/leads-db
+            - generic [ref=e400]:
+              - img [ref=e402]
+              - text: Overview
+          - link "Credentials" [active] [ref=e403] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/leads-db/credentials
+            - generic [ref=e405]:
+              - img [ref=e407]
+              - text: Credentials
+          - link "Expose" [ref=e411] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/leads-db/expose
+            - generic [ref=e413]:
+              - img [ref=e415]
+              - text: Expose
+          - link "Resources" [ref=e417] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/leads-db/resources
+            - generic [ref=e419]:
+              - img [ref=e421]
+              - text: Resources
+          - link "Backups" [ref=e424] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/leads-db/backups
+            - generic [ref=e426]:
+              - img [ref=e428]
+              - text: Backups
+          - link "Advanced" [ref=e432] [cursor=pointer]:
+            - /url: /projects/osvaldo/mysql/leads-db/advanced
+            - generic [ref=e434]:
+              - img [ref=e436]
+              - text: Advanced
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - link "osvaldo" [ref=e439] [cursor=pointer]:
+            - /url: /projects/osvaldo
+          - paragraph [ref=e440]: /
+          - paragraph [ref=e441]: leads-db
+          - generic [ref=e442]: mysql
+          - button "Rename" [ref=e444] [cursor=pointer]:
+            - img [ref=e445]
+        - generic [ref=e227]:
+          - link "Service" [ref=e448] [cursor=pointer]:
+            - /url: /projects/osvaldo/create
+            - img [ref=e230]
+            - text: Service
+          - link "Templates" [ref=e449] [cursor=pointer]:
+            - /url: /projects/osvaldo/create
+            - img [ref=e233]
+            - text: Templates
+          - link "Project Settings" [ref=e450] [cursor=pointer]:
+            - /url: /projects/osvaldo/settings
+            - img [ref=e237]
+      - generic [ref=e453]:
+        - generic [ref=e528]:
+          - generic [ref=e529]:
+            - button "Stop" [ref=e530] [cursor=pointer]:
+              - img [ref=e531]
+            - button "Logs" [ref=e534] [cursor=pointer]:
+              - img [ref=e535]
+            - button "Console" [ref=e538] [cursor=pointer]:
+              - img [ref=e539]
+            - button "Destroy" [ref=e541] [cursor=pointer]:
+              - img [ref=e542]
+          - generic [ref=e545]:
+            - generic [ref=e546]:
+              - text: CPU
+              - generic [ref=e547]: 0.0%
+            - generic [ref=e548]: Memory 0.0 B
+            - generic [ref=e549]:
+              - text: Network I/O
+              - generic [ref=e550]: 0.0 B / 0.0 B
+        - generic [ref=e551]:
+          - generic [ref=e552]:
+            - paragraph [ref=e553]: Credentials
+            - button "Edit" [ref=e554] [cursor=pointer]
+          - generic [ref=e556]:
+            - generic [ref=e557]:
+              - group [ref=e558]:
+                - generic [ref=e559]: User
+                - button "leads_user" [ref=e561] [cursor=pointer]:
+                  - generic [ref=e562]: leads_user
+                  - img [ref=e564]
+              - group [ref=e567]:
+                - generic [ref=e568]: Password
+                - generic [ref=e569]:
+                  - button "•••••••••••••" [ref=e570] [cursor=pointer]:
+                    - generic [ref=e571]: •••••••••••••
+                    - img [ref=e573]
+                  - button "Toggle Visiblity" [ref=e576] [cursor=pointer]:
+                    - img [ref=e577]
+            - generic [ref=e580]:
+              - group [ref=e581]:
+                - generic [ref=e582]: Database Name
+                - button "leads_control" [ref=e584] [cursor=pointer]:
+                  - generic [ref=e585]: leads_control
+                  - img [ref=e587]
+              - group [ref=e590]:
+                - generic [ref=e591]: Root Password
+                - generic [ref=e592]:
+                  - button "•••••••" [ref=e593] [cursor=pointer]:
+                    - generic [ref=e594]: •••••••
+                    - img [ref=e596]
+                  - button "Toggle Visiblity" [ref=e599] [cursor=pointer]:
+                    - img [ref=e600]
+            - generic [ref=e603]:
+              - group [ref=e604]:
+                - generic [ref=e605]: Internal Host
+                - button "osvaldo_leads-db" [ref=e607] [cursor=pointer]:
+                  - generic [ref=e608]: osvaldo_leads-db
+                  - img [ref=e610]
+              - group [ref=e613]:
+                - generic [ref=e614]: Internal Port
+                - button "3306" [ref=e616] [cursor=pointer]:
+                  - generic [ref=e617]: "3306"
+                  - img [ref=e619]
+            - group [ref=e623]:
+              - generic [ref=e624]: Internal Connection URL
+              - generic [ref=e625]:
+                - button "••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••" [ref=e626] [cursor=pointer]:
+                  - generic [ref=e627]: ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+                  - img [ref=e629]
+                - button "Toggle Visiblity" [ref=e632] [cursor=pointer]:
+                  - img [ref=e633]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

@@ -1,0 +1,17 @@
+- generic [active]:
+  - generic:
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=e1]:
+          - img [ref=e4]
+          - generic [ref=e6]:
+            - generic [ref=e7]: osvaldo/leads-control
+            - generic [ref=e8]: Deploy service
+          - button "View Logs" [ref=e9] [cursor=pointer]
+  - generic:
+    - region "Notifications-top"
+    - region "Notifications-top-left"
+    - region "Notifications-top-right"
+    - region "Notifications-bottom-left"
+    - region "Notifications-bottom"
+    - region "Notifications-bottom-right"

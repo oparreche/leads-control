@@ -1,0 +1,5 @@
+[   54011ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://92.113.32.80:3000/api/trpc/services.app.deployService:0
+[   54033ms] TRPCClientError: Command failed with exit code 1: docker buildx build --network host -f /etc/easypanel/projects/osvaldo/leads-control/code/Dockerfile -t easypanel/osvaldo/leads-control --label 'keep=true' --build-arg 'DATABASE_URL=mysql://leads_user:leads_pass123@osvaldo_leads-db:3306/leads_control' --build-arg 'NEXTAUTH_SECRET=sua-chave-secreta-aqui-mude-em-producao' --build-arg 'NEXTAUTH_URL=https://osvaldo-leads-control.0tkqo1.easypanel.host' --build-arg 'GIT_SHA=7578b891fe95fc8d8d0b0b018feed1fdb4751a27' /etc/easypanel/projects/osvaldo/leads-control/code/
+    at e$.from (http://92.113.32.80:3000/assets/index-CgU0qzws.js:405:69270)
+    at http://92.113.32.80:3000/assets/index-CgU0qzws.js:405:72903
+[   61661ms] [ERROR] Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING @ http://92.113.32.80:3000/api/trpc/subscription.onInvalidateActions?input=%7B%22json%22%3Anull%2C%22meta%22%3A%7B%22values%22%3A%5B%22undefined%22%5D%2C%22v%22%3A1%7D%7D:0

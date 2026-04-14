@@ -1,0 +1,1 @@
+[   46163ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://92.113.32.80:3000/api/trpc/services.app.updateSourceGithub:0
