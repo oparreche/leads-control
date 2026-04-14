@@ -29,7 +29,7 @@ COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/node_modules/.prisma ./node_modules/.prisma
 COPY --from=builder /app/node_modules/@prisma ./node_modules/@prisma
 COPY --from=builder /app/package.json ./package.json
-COPY --from=builder "/app/Desenovlvimento de software_SP.csv" "./"
+COPY --from=builder /app/leads-data.csv ./
 
 USER nextjs
 

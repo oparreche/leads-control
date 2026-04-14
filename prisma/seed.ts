@@ -30,7 +30,7 @@ async function main() {
   console.log("Usuários criados com sucesso!");
 
   // Importar leads do CSV
-  const csvPath = path.join(__dirname, "..", "Desenovlvimento de software_SP.csv");
+  const csvPath = path.join(__dirname, "..", "leads-data.csv");
   const csvContent = fs.readFileSync(csvPath, "utf-8");
   const lines = csvContent.split("\n").filter((line) => line.trim());
 
