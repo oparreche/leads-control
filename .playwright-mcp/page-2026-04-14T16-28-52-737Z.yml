@@ -1,0 +1,224 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e19]
+  - generic [ref=e20]:
+    - banner [ref=e21]:
+      - generic [ref=e22]:
+        - heading "Leads Control" [level=1] [ref=e23]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - text: Olá,
+            - strong [ref=e26]: Osvaldo
+          - button "Sair" [ref=e27]
+    - main [ref=e28]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: "999"
+          - paragraph [ref=e33]: Total
+        - generic [ref=e34]:
+          - paragraph [ref=e35]: "999"
+          - paragraph [ref=e36]: Novos
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: "0"
+          - paragraph [ref=e39]: Em Atendimento
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: "0"
+          - paragraph [ref=e42]: Contato Realizado
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: "0"
+          - paragraph [ref=e45]: Interessados
+        - generic [ref=e46]:
+          - paragraph [ref=e47]: "0"
+          - paragraph [ref=e48]: Não Interessados
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: "0"
+          - paragraph [ref=e51]: Fechado (Ganho)
+        - generic [ref=e52]:
+          - paragraph [ref=e53]: "0"
+          - paragraph [ref=e54]: Fechado (Perdido)
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - textbox "Buscar por nome, email, telefone ou cidade..." [ref=e57]
+          - combobox [ref=e58]:
+            - option "Todos os status" [selected]
+            - option "Novo"
+            - option "Em Atendimento"
+            - option "Contato Realizado"
+            - option "Interessado"
+            - option "Não Interessado"
+            - option "Fechado (Ganho)"
+            - option "Fechado (Perdido)"
+        - table [ref=e60]:
+          - rowgroup [ref=e61]:
+            - row "Nome Telefone Cidade Status Atendido por Ações" [ref=e62]:
+              - columnheader "Nome" [ref=e63]
+              - columnheader "Telefone" [ref=e64]
+              - columnheader "Cidade" [ref=e65]
+              - columnheader "Status" [ref=e66]
+              - columnheader "Atendido por" [ref=e67]
+              - columnheader "Ações" [ref=e68]
+          - rowgroup [ref=e69]:
+            - row "PATRICIA ALVES DE LIMA CAVALCANTE 11982507530 SAO PAULO/SP Novo - Ver detalhes" [ref=e70] [cursor=pointer]:
+              - cell "PATRICIA ALVES DE LIMA CAVALCANTE" [ref=e71]
+              - cell "11982507530" [ref=e72]
+              - cell "SAO PAULO/SP" [ref=e73]
+              - cell "Novo" [ref=e74]
+              - cell "-" [ref=e75]
+              - cell "Ver detalhes" [ref=e76]:
+                - button "Ver detalhes" [ref=e77]
+            - row "SIMONE PEREIRA DA SILVA 11965829699 SAO PAULO/SP Novo - Ver detalhes" [ref=e78] [cursor=pointer]:
+              - cell "SIMONE PEREIRA DA SILVA" [ref=e79]
+              - cell "11965829699" [ref=e80]
+              - cell "SAO PAULO/SP" [ref=e81]
+              - cell "Novo" [ref=e82]
+              - cell "-" [ref=e83]
+              - cell "Ver detalhes" [ref=e84]:
+                - button "Ver detalhes" [ref=e85]
+            - row "ROSANGELA MARIA DE LIMA 11979565507 SAO PAULO/SP Novo - Ver detalhes" [ref=e86] [cursor=pointer]:
+              - cell "ROSANGELA MARIA DE LIMA" [ref=e87]
+              - cell "11979565507" [ref=e88]
+              - cell "SAO PAULO/SP" [ref=e89]
+              - cell "Novo" [ref=e90]
+              - cell "-" [ref=e91]
+              - cell "Ver detalhes" [ref=e92]:
+                - button "Ver detalhes" [ref=e93]
+            - row "MARIA LUCIANA DOS SANTOS 11988330904 SAO PAULO/SP Novo - Ver detalhes" [ref=e94] [cursor=pointer]:
+              - cell "MARIA LUCIANA DOS SANTOS" [ref=e95]
+              - cell "11988330904" [ref=e96]
+              - cell "SAO PAULO/SP" [ref=e97]
+              - cell "Novo" [ref=e98]
+              - cell "-" [ref=e99]
+              - cell "Ver detalhes" [ref=e100]:
+                - button "Ver detalhes" [ref=e101]
+            - row "YASMIN GALHARDO FERREIRA 11989643693 SAO PAULO/SP Novo - Ver detalhes" [ref=e102] [cursor=pointer]:
+              - cell "YASMIN GALHARDO FERREIRA" [ref=e103]
+              - cell "11989643693" [ref=e104]
+              - cell "SAO PAULO/SP" [ref=e105]
+              - cell "Novo" [ref=e106]
+              - cell "-" [ref=e107]
+              - cell "Ver detalhes" [ref=e108]:
+                - button "Ver detalhes" [ref=e109]
+            - row "REGINA DE SOUSA PEREIRA CARNEIRO 11996419879 SAO PAULO/SP Novo - Ver detalhes" [ref=e110] [cursor=pointer]:
+              - cell "REGINA DE SOUSA PEREIRA CARNEIRO" [ref=e111]
+              - cell "11996419879" [ref=e112]
+              - cell "SAO PAULO/SP" [ref=e113]
+              - cell "Novo" [ref=e114]
+              - cell "-" [ref=e115]
+              - cell "Ver detalhes" [ref=e116]:
+                - button "Ver detalhes" [ref=e117]
+            - row "MOISES DAMASO MARCHEZI 11994796624 SAO PAULO/SP Novo - Ver detalhes" [ref=e118] [cursor=pointer]:
+              - cell "MOISES DAMASO MARCHEZI" [ref=e119]
+              - cell "11994796624" [ref=e120]
+              - cell "SAO PAULO/SP" [ref=e121]
+              - cell "Novo" [ref=e122]
+              - cell "-" [ref=e123]
+              - cell "Ver detalhes" [ref=e124]:
+                - button "Ver detalhes" [ref=e125]
+            - row "PALOMA HELENA CORREA 11981206893 SAO PAULO/SP Novo - Ver detalhes" [ref=e126] [cursor=pointer]:
+              - cell "PALOMA HELENA CORREA" [ref=e127]
+              - cell "11981206893" [ref=e128]
+              - cell "SAO PAULO/SP" [ref=e129]
+              - cell "Novo" [ref=e130]
+              - cell "-" [ref=e131]
+              - cell "Ver detalhes" [ref=e132]:
+                - button "Ver detalhes" [ref=e133]
+            - row "BEATRIZ LOPES PIRES SANTOS 11977589555 SAO PAULO/SP Novo - Ver detalhes" [ref=e134] [cursor=pointer]:
+              - cell "BEATRIZ LOPES PIRES SANTOS" [ref=e135]
+              - cell "11977589555" [ref=e136]
+              - cell "SAO PAULO/SP" [ref=e137]
+              - cell "Novo" [ref=e138]
+              - cell "-" [ref=e139]
+              - cell "Ver detalhes" [ref=e140]:
+                - button "Ver detalhes" [ref=e141]
+            - row "RENATA PAULA DA SILVA 11997242776 SAO PAULO/SP Novo - Ver detalhes" [ref=e142] [cursor=pointer]:
+              - cell "RENATA PAULA DA SILVA" [ref=e143]
+              - cell "11997242776" [ref=e144]
+              - cell "SAO PAULO/SP" [ref=e145]
+              - cell "Novo" [ref=e146]
+              - cell "-" [ref=e147]
+              - cell "Ver detalhes" [ref=e148]:
+                - button "Ver detalhes" [ref=e149]
+            - row "TATIANE NOTTARI GARCIA 11995178924 SAO PAULO/SP Novo - Ver detalhes" [ref=e150] [cursor=pointer]:
+              - cell "TATIANE NOTTARI GARCIA" [ref=e151]
+              - cell "11995178924" [ref=e152]
+              - cell "SAO PAULO/SP" [ref=e153]
+              - cell "Novo" [ref=e154]
+              - cell "-" [ref=e155]
+              - cell "Ver detalhes" [ref=e156]:
+                - button "Ver detalhes" [ref=e157]
+            - row "ISABELLA ARCANJO MORETTI 11984313062 SAO PAULO/SP Novo - Ver detalhes" [ref=e158] [cursor=pointer]:
+              - cell "ISABELLA ARCANJO MORETTI" [ref=e159]
+              - cell "11984313062" [ref=e160]
+              - cell "SAO PAULO/SP" [ref=e161]
+              - cell "Novo" [ref=e162]
+              - cell "-" [ref=e163]
+              - cell "Ver detalhes" [ref=e164]:
+                - button "Ver detalhes" [ref=e165]
+            - row "RAUANNE MARCELINO DE LIMA 11987293057 SAO PAULO/SP Novo - Ver detalhes" [ref=e166] [cursor=pointer]:
+              - cell "RAUANNE MARCELINO DE LIMA" [ref=e167]
+              - cell "11987293057" [ref=e168]
+              - cell "SAO PAULO/SP" [ref=e169]
+              - cell "Novo" [ref=e170]
+              - cell "-" [ref=e171]
+              - cell "Ver detalhes" [ref=e172]:
+                - button "Ver detalhes" [ref=e173]
+            - row "ANDREIA SOARES LUZIA 11968248509 SAO PAULO/SP Novo - Ver detalhes" [ref=e174] [cursor=pointer]:
+              - cell "ANDREIA SOARES LUZIA" [ref=e175]
+              - cell "11968248509" [ref=e176]
+              - cell "SAO PAULO/SP" [ref=e177]
+              - cell "Novo" [ref=e178]
+              - cell "-" [ref=e179]
+              - cell "Ver detalhes" [ref=e180]:
+                - button "Ver detalhes" [ref=e181]
+            - row "PRISCILA LOPES FREIRIA 11988871365 SAO PAULO/SP Novo - Ver detalhes" [ref=e182] [cursor=pointer]:
+              - cell "PRISCILA LOPES FREIRIA" [ref=e183]
+              - cell "11988871365" [ref=e184]
+              - cell "SAO PAULO/SP" [ref=e185]
+              - cell "Novo" [ref=e186]
+              - cell "-" [ref=e187]
+              - cell "Ver detalhes" [ref=e188]:
+                - button "Ver detalhes" [ref=e189]
+            - row "FRANCISCA GIANNYA PEREIRA DOS SANTOS 11989251897 SAO PAULO/SP Novo - Ver detalhes" [ref=e190] [cursor=pointer]:
+              - cell "FRANCISCA GIANNYA PEREIRA DOS SANTOS" [ref=e191]
+              - cell "11989251897" [ref=e192]
+              - cell "SAO PAULO/SP" [ref=e193]
+              - cell "Novo" [ref=e194]
+              - cell "-" [ref=e195]
+              - cell "Ver detalhes" [ref=e196]:
+                - button "Ver detalhes" [ref=e197]
+            - row "ALEXANDRE AZEVEDO TRIZO 14998577562 SAO PAULO/SP Novo - Ver detalhes" [ref=e198] [cursor=pointer]:
+              - cell "ALEXANDRE AZEVEDO TRIZO" [ref=e199]
+              - cell "14998577562" [ref=e200]
+              - cell "SAO PAULO/SP" [ref=e201]
+              - cell "Novo" [ref=e202]
+              - cell "-" [ref=e203]
+              - cell "Ver detalhes" [ref=e204]:
+                - button "Ver detalhes" [ref=e205]
+            - row "RAFAELY FERREIRA LIMA PONCIANO 11983992451 SAO PAULO/SP Novo - Ver detalhes" [ref=e206] [cursor=pointer]:
+              - cell "RAFAELY FERREIRA LIMA PONCIANO" [ref=e207]
+              - cell "11983992451" [ref=e208]
+              - cell "SAO PAULO/SP" [ref=e209]
+              - cell "Novo" [ref=e210]
+              - cell "-" [ref=e211]
+              - cell "Ver detalhes" [ref=e212]:
+                - button "Ver detalhes" [ref=e213]
+            - row "ELEN RODRIGUES SILVA 11961687460 SAO PAULO/SP Novo - Ver detalhes" [ref=e214] [cursor=pointer]:
+              - cell "ELEN RODRIGUES SILVA" [ref=e215]
+              - cell "11961687460" [ref=e216]
+              - cell "SAO PAULO/SP" [ref=e217]
+              - cell "Novo" [ref=e218]
+              - cell "-" [ref=e219]
+              - cell "Ver detalhes" [ref=e220]:
+                - button "Ver detalhes" [ref=e221]
+            - row "ADRIANA JULIA DE ALMEIDA 11994962932 SAO PAULO/SP Novo - Ver detalhes" [ref=e222] [cursor=pointer]:
+              - cell "ADRIANA JULIA DE ALMEIDA" [ref=e223]
+              - cell "11994962932" [ref=e224]
+              - cell "SAO PAULO/SP" [ref=e225]
+              - cell "Novo" [ref=e226]
+              - cell "-" [ref=e227]
+              - cell "Ver detalhes" [ref=e228]:
+                - button "Ver detalhes" [ref=e229]
+        - generic [ref=e230]:
+          - paragraph [ref=e231]: Mostrando página 1 de 50 (999 leads)
+          - generic [ref=e232]:
+            - button "Anterior" [disabled] [ref=e233]
+            - button "Próxima" [ref=e234]
